@@ -13,11 +13,11 @@ pair<double, double> get_input() {
 
 // Function placeholders for team members to implement (8 functions only)
 void add(double a, double b) {
-    // To be implemented by a team member
+    cout<<"Addition:"<<a+b<<endl;
 }
 
 void subtract(double a, double b) {
-    // To be implemented by a team member
+    cout<<"Subraction:"<<a-b<<endl;
 }
 
 void multiply(double a, double b) {
