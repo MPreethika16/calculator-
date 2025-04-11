@@ -28,7 +28,7 @@ void divide(double a, double b) {
     // To be implemented by a team member
 }
 
-void modulus(double a, double b) {
+void mod(double a, double b) {
     // To be implemented by a team member
 }
 
@@ -53,7 +53,7 @@ void calculator() {
     subtract(a, b);
     multiply(a, b);
     divide(a, b);
-    modulus(a, b);
+    mod(a, b);
     factorial(a);
     logarithm(a, b);
     absolute(a);
