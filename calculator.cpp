@@ -39,10 +39,22 @@ void factorial(double a) {
 void logarithm(double a, double b) {
     // To be implemented by a team member
 }
-
 void absolute(double a) {
     // To be implemented by a team member
 }
+//power
+void power(double a, double b) {
+    cout << a << " raised to the power " << b << ": " << pow(a, b) << endl;
+}
+
+//  Square Root
+void square_root(double a) {
+    if (a >= 0)
+        cout << "Square root of " << a << ": " << sqrt(a) << endl;
+    else
+        cout << "Square root: Undefined (negative input)" << endl;
+}
+
 
 void calculator() {
     cout << "\n Calculator Program" << endl;
@@ -57,6 +69,8 @@ void calculator() {
     factorial(a);
     logarithm(a, b);
     absolute(a);
+    power(a, b);
+    square_root(a);
 }
 
 int main() {
