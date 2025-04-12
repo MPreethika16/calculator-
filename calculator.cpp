@@ -39,7 +39,6 @@ void factorial(double a) {
 void logarithm(double a, double b) {
     // To be implemented by a team member
 }
-
 void absolute(double a) {
     // To be implemented by a team member
 }
