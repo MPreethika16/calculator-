@@ -21,7 +21,7 @@ void subtract(double a, double b) {
 }
 
 void multiply(double a, double b) {
-    cout<<"Multiplication:<<a*b<<endl;
+    cout<<"Multiplication:"<<a*b<<endl;
 }
 
 void divide(double a, double b) {
@@ -33,14 +33,26 @@ void mod(double a, double b) {
 }
 
 void factorial(double a) {
-    // To be implemented by a team member
+     if (a < 0 || floor(a) != a) {
+        cout << "Error: Factorial is not defined for negative or non-integer values!" << endl;
+        return;
+    }
+    double result = 1;
+    for (int i = 1; i <= static_cast<int>(a); i++) {
+        result *= i;
+    }
+    cout << "Factorial: " << result << endl;
 }
 
 void logarithm(double a, double b) {
-    // To be implemented by a team member
+    if (a > 0 && base > 0 && base != 1) {
+        cout << "Logarithm base " << base << " of " << a << ": " << log(a) / log(base) << endl;
+    } else {
+        cout << "Error: Invalid input for logarithm!" << endl;
+    }
 }
 void absolute(double a) {
-    // To be implemented by a team member
+   cout << "Absolute value: " << fabs(a) << endl;
 }
 //power
 void power(double a, double b) {
