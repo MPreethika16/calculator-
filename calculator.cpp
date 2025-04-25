@@ -21,15 +21,15 @@ void subtract(double a, double b) {
 }
 
 void multiply(double a, double b) {
-    // To be implemented by a team member
+    cout<<"Multiplication:<<a*b<<endl;
 }
 
 void divide(double a, double b) {
-    // To be implemented by a team member
+    cout<<"division:"<<a/b<<endl;
 }
 
 void mod(double a, double b) {
-    // To be implemented by a team member
+    cout<<"Modulus:"<<a%b<<endl;
 }
 
 void factorial(double a) {
